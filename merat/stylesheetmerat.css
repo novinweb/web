@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    font-family: iransans;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #3A9EF6;
+}
+#navmenu{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#ulmenu{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding: 1.5% 0% 1.5% 4%;
+}
+.limenu{
+    margin: 0;
+    margin-right: 0.2%;
+    padding: 0;
+    padding: 0.1% 1%;
+    color: white;
+    font-size: 13px;
+    float: left;
+    transition: background-color 0.3s;
+    transition-delay: 0.05s;
+    transition-timing-function: linear;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.limenu:hover{
+    background-color: #9acdfa;
+}
+#videoani{
+    margin: 0;
+    padding: 0;
+    margin-left: 21%;
+    margin-top: 2%;
+}
+#divbutton{
+    padding-right: 28%;
+}
+#divbutton1{
+    background-color: #ffdc92;
+    color: #9c1c1f;
+    float: right;
+    font-size: 17px;
+    border-radius: 32px;
+    padding: 0% 7%;
+    cursor: pointer;
+    margin-left: 2%;
+}
+#button1{
+    transition: transform 0.3s;
+}
+#divbutton1:hover #button1{
+    transform: scale(1.03,1);
+}
+#divbutton2{
+    color: #ffdc92;
+    float: right;
+    font-size: 17px;
+    border: 1px solid #ffdc92;
+    border-radius: 32px;
+    padding: 0% 9%;
+    cursor: pointer;
+}
+#button2{
+    transition: transform 0.3s;
+}
+#divbutton2:hover #button2{
+    transform: scale(1.03,1);
+}
+#namad1{
+    width: 7%;
+    margin-left: 75%;
+    margin-top: -6%;
+}
+#namad2{
+    width: 7%;
+    margin-top: -6%;
+}
